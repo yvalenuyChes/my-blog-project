@@ -1,5 +1,5 @@
 import { useCallback } from 'react'
-import { View, Text, StyleSheet, FlatList } from "react-native"
+import { View, StyleSheet, FlatList } from "react-native"
 import {useFonts} from 'expo-font'
 import * as SplashScreen from 'expo-splash-screen'
 import { DATA } from '../data'
