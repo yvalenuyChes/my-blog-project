@@ -27,7 +27,7 @@ export const MainScreen = ({navigation}) => {
   }
 
   const openPostHandler = post =>{
-   navigation.navigate('Posts', {postId: post.id, date: post.date})
+   navigation.navigate('Posts', {postId: post.id, date: post.date, bookMarked: post.booked})
   }
 
 
